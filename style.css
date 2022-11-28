@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url('/Trybe-Exercices/Fundamentos/6-HTML-e-CSS-Forms-Flexbox-e-Responsivo/Projeto-Trybewarts/images/spookycastle_spookycastle-01.jpg');
+  background-image: url('spookycastle_spookycastle-01.jpg');
   background-size: cover;
   color: white;
   font-family: 'Rubik', sans-serif;
