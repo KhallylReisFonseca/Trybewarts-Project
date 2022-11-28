@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap');
+
+:root {
+  --color: #00ccff;
+  --color-shade: #413f99;
+}
+
+body {
+  background-image: url('/Trybe-Exercices/Fundamentos/6-HTML-e-CSS-Forms-Flexbox-e-Responsivo/Projeto-Trybewarts/images/spookycastle_spookycastle-01.jpg');
+  background-size: cover;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+#campo-textarea > p {
+  margin-bottom: 8px;
+}
+
+#campo-textarea > div {
+  position: relative;
+}
+
+#campo-textarea > div > textarea {
+  width: 99.5%;
+  resize: none;
+}
+
+#campo-textarea > div > p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-9px, -9px);
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+textarea::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  padding: 0 10px 0 0;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  margin: 0 10px;
+  width: 100px;
+}
+
+#trybewarts-header-title {
+  font-size: 48px;
+  color: white;
+}
+
+.campo-login {
+  margin: 0 10px;
+  padding: 10px;
+  height: 30%;
+  width: 250px;
+}
+
+input, textarea {
+  background-color: rgba(0, 0, 0, .3);
+  color: #ffffff;
+  border: none;
+}
+#div-dados {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-bottom: 5px;
+}
+
+#form-data {
+  color: rgb(0, 0, 0);
+}
+
+main {
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 1.6em;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#campo-usuario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  backdrop-filter: blur(10px);
+}
+
+#submit-btn {
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  width: 103.7%;
+  margin-top: 5px;
+  background-color: var(--color);
+  font-weight: 600;
+}
+
+#submit-btn:hover {
+  background-color: var(--color-shade);
+}
+
+#submit-btn:disabled {
+  cursor: not-allowed;
+  background-color: var(--color);
+  opacity: 50%;
+}
+
+#botao1 {
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--color);
+  font-weight: 600;
+}
+
+#botao1:hover {
+  background-color: var(--color-shade);
+}
+
+#botao1:disabled {
+  cursor: not-allowed;
+  background-color: var(--color);
+  opacity: 50%;
+}
+
+
+.nome-usuario {
+  padding: 6px;
+  border: 1px solid rgb(218, 218, 218);
+  width: 150px;
+}
+
+#campo-familia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#campo-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-checkbox {
+  margin: 6px;
+}
+
+#label-family , #label-content , #label-textarea {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+#campo-textarea {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#counter {
+  margin: 6px;
+}
+
+#user-agreement {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
