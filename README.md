@@ -1,5 +1,5 @@
 # Seja muito bem-vindo(a) ao meu projeto Trybewarts! :rocket:
-<img src = "trybewarts.png" width = "325px" align = "right">
+<img src = "Trybewarts.png" width = "325px" align = "right">
 
 <p>Neste projeto realizeei em grupo, a confecção de um forms responsivo com HTML, CSS e JavaScript!</p>
 
